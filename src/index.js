@@ -13,7 +13,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { videos: [] };
+    this.state = { videos: undefined };
 
     YTSearch({ key: YT_API, term: 'coc'}, (videos) => {
       this.setState({ videos });
