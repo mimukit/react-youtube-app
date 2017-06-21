@@ -20,6 +20,7 @@ class SearchBar extends Component {
           onChange={(event) => {
             this.onInputChange(event.target.value)
           }}
+          placeholder='Search Video'
         />
       </div>
     );
